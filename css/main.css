@@ -1,0 +1,124 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 355px;
+    float: left;
+}
+
+
+/***** Header Section *****/
+header {
+    padding: 50px 20px;
+    height: 380px;
+    background: #ffffff;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header h1 span {
+    color:#77a466;
+}
+
+#hero-image {
+    border-style: solid;
+    border-width: 3px 0px;
+    border-color: #77a466;
+}
+
+nav {
+    float: right;
+    padding-top: 5px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #77a466;
+    line-height: 23px;
+    padding-left: 10px;
+}
+
+/***** Top Section *****/
+#about h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: #77a466;
+    line-height: 23px;
+}
+
+/***** Bottom Section *****/
+#bottom .full-width {
+    border-style: solid;
+    border-width: 2px 0px;
+    border-color: #eeeeee;
+}
+
+#bottom h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#section-one {
+    padding-top: 20px;
+}
+#section-one p {
+    line-height: 18px;
+    color: #77a466;
+}
+#section-two {
+    border-style: solid;
+    border-width: 0px 2px;
+    border-color: #eeeeee;
+    padding: 20px 30px 0px 30px;
+}
+
+#section-three {
+    padding: 20px 30px;
+}
+
+#section-three p {
+    line-height: 12px;
+}
+
+/***** Footer Section *****/
+#footer {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+#footer span {
+    font-family: Galada, regular;
+    color: #77a466;
+    font-weight: normal;
+    text-transform: lowercase;
+}
